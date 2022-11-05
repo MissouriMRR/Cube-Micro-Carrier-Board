@@ -1,4 +1,9 @@
 (sym_lib_table
   (lib (name "CubeCarrierBoard")(type "KiCad")(uri "${KIPRJMOD}/libraries/CubeCarrierBoard.kicad_sym")(options "")(descr ""))
   (lib (name "5024430670")(type "Legacy")(uri "${KIPRJMOD}/libraries/5024430670.lib")(options "")(descr ""))
+  (lib (name "BM03B-GHS-TBT_LF__SN__N_")(type "KiCad")(uri "${KIPRJMOD}/libraries/BM03B-GHS-TBT_LF__SN__N_.kicad_sym")(options "")(descr ""))
+  (lib (name "BM04B-GHS-TBT_LF__SN__N_")(type "KiCad")(uri "${KIPRJMOD}/libraries/BM04B-GHS-TBT_LF__SN__N_.kicad_sym")(options "")(descr ""))
+  (lib (name "BM06B-GHS-TBT_LF__SN__N_")(type "KiCad")(uri "${KIPRJMOD}/libraries/BM06B-GHS-TBT_LF__SN__N_.kicad_sym")(options "")(descr ""))
+  (lib (name "BM08B-GHS-TBT_LF__SN__N_")(type "KiCad")(uri "${KIPRJMOD}/libraries/BM08B-GHS-TBT_LF__SN__N_.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-11-05_21-49-56")(type "KiCad")(uri "${KIPRJMOD}/libraries/2022-11-05_21-49-56.kicad_sym")(options "")(descr ""))
 )
