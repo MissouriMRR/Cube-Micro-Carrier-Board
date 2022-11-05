@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "CubeCarrierBoard")(type "KiCad")(uri "${KIPRJMOD}/libraries/CubeCarrierBoard.kicad_sym")(options "")(descr ""))
+)
