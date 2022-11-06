@@ -4366,28 +4366,28 @@
       (reference "J27") (unit 1) (value "Aux Servo 6") (footprint "")
     )
     (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/455b7c6a-ae05-4c60-9e04-4936b817fd76"
-      (reference "L1") (unit 1) (value "Kyocera KNH16C104DA5TS EMI Filter") (footprint "Fuse:Fuse_0603_1608Metric")
+      (reference "L1") (unit 1) (value "Kyocera KNH16C104DA5TS EMI Filter") (footprint "libraries:C_FEEDTHRU_0603_TDK")
     )
     (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/5f2be2be-9179-4902-87c7-86ca69a03eff"
       (reference "L2") (unit 1) (value "47uH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/3ff7234a-8854-4a5d-939f-8d4927b4c9ec"
-      (reference "Q1") (unit 1) (value "Q_Dual_PMOS") (footprint "libraries:RESCAXE64P320X160X70-10N")
+      (reference "Q1") (unit 1) (value "Q_Dual_PMOS") (footprint "")
     )
     (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/47b5f42a-72b3-48cb-8717-e31bd517ebf5"
-      (reference "Q1") (unit 2) (value "Q_Dual_PMOS") (footprint "libraries:RESCAXE64P320X160X70-10N")
+      (reference "Q1") (unit 2) (value "Q_Dual_PMOS") (footprint "")
     )
     (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/214463fd-9947-43f4-96bd-0083eb57a9ac"
-      (reference "Q2") (unit 1) (value "Q_Dual_PMOS") (footprint "libraries:RESCAXE64P320X160X70-10N")
+      (reference "Q2") (unit 1) (value "Q_Dual_PMOS") (footprint "")
     )
     (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/9b0616f2-7c96-47ac-b776-569f9a9d7846"
-      (reference "Q2") (unit 2) (value "Q_Dual_PMOS") (footprint "libraries:RESCAXE64P320X160X70-10N")
+      (reference "Q2") (unit 2) (value "Q_Dual_PMOS") (footprint "")
     )
     (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/da05459a-ea0d-43f1-8689-e424f50e08e2"
-      (reference "Q3") (unit 1) (value "Q_Dual_PMOS") (footprint "libraries:RESCAXE64P320X160X70-10N")
+      (reference "Q3") (unit 1) (value "Q_Dual_PMOS") (footprint "")
     )
     (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/4891432d-ace6-42e6-acb0-844014a37d33"
-      (reference "Q3") (unit 2) (value "Q_Dual_PMOS") (footprint "libraries:RESCAXE64P320X160X70-10N")
+      (reference "Q3") (unit 2) (value "Q_Dual_PMOS") (footprint "")
     )
     (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/daeda23e-526a-4a98-ab3a-6417d6b6826d"
       (reference "Q4") (unit 1) (value "MMBT3906-TPCT-ND") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -4480,7 +4480,7 @@
       (reference "U4") (unit 1) (value "MIC5332") (footprint "libraries:MIC5332-SSYMT-TR")
     )
     (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/44328f96-9b6b-4c65-b848-6dcf0aa31097"
-      (reference "U5") (unit 1) (value "LT3469ETS8PBF") (footprint "Linear_Technology-LT3469ETS8PBF-*")
+      (reference "U5") (unit 1) (value "LT3469ETS8PBF") (footprint "Package_TO_SOT_SMD:TSOT-23-8")
     )
     (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/65c91fc8-58c1-48fd-932c-d5268a7edf8b"
       (reference "U6") (unit 1) (value "BQ24313") (footprint "libraries:SON50P200X200X80-9N")
