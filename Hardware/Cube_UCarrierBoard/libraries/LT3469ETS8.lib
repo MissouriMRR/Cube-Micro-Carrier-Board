@@ -1,0 +1,42 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Linear Technology LT3469ETS8#PBF
+#
+DEF LT3469ETS8PBF U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "LT3469ETS8#PBF" 0 300 50 H V L CNN 
+F2 "Linear_Technology-LT3469ETS8PBF-*" 0 400 50 H I L CNN 
+F3 "http://cds.linear.com/docs/en/datasheet/3469f.pdf" 0 500 50 H I L CNN 
+F4 "MO-193" 0 600 50 H I L CNN "Code  JEDEC"
+F5 "Manufacturer URL" 0 700 50 H I L CNN "Component Link 1 Description"
+F6 "http://www.linear.com/" 0 800 50 H I L CNN "Component Link 1 URL"
+F7 "Package Specification" 0 900 50 H I L CNN "Component Link 3 Description"
+F8 "http://cds.linear.com/docs/en/packaging/SOT_8_05-08-1637.pdf" 0 1000 50 H I L CNN "Component Link 3 URL"
+F9 "Surface Mount" 0 1100 50 H I L CNN "Mounting Technology"
+F10 "1" 0 1200 50 H I L CNN "Number of Outputs"
+F11 "8-Pin Plastic TSOT-23, Body 2.9 x 1.63 mm, Pitch 0.65 mm" 0 1300 50 H I L CNN "Package Description"
+F12 "Rev. A, 08/2010" 0 1400 50 H I L CNN "Package Version"
+F13 "IC" 0 1500 50 H I L CNN "category"
+F14 "2944133" 0 1600 50 H I L CNN "ciiva ids"
+F15 "5dbba2a41eee83f3" 0 1700 50 H I L CNN "library id"
+F16 "Linear Technology" 0 1800 50 H I L CNN "manufacturer"
+F17 "TS8-8" 0 1900 50 H I L CNN "package"
+F18 "1377839658" 0 2000 50 H I L CNN "release date"
+F19 "Yes" 0 2100 50 H I L CNN "rohs"
+F20 "E5E46170-05CA-43E0-ABCC-429B2364D8D1" 0 2200 50 H I L CNN "vault revision"
+F21 "yes" 0 2300 50 H I L CNN "imported"
+DRAW
+X OUT 1 900 0 100 L 40 40 1 1 U 
+X FB 2 900 -300 100 L 40 40 1 1 I 
+X VIN 3 100 -300 100 R 40 40 1 1 W 
+X GND 4 900 -700 100 L 40 40 1 1 W 
+X SW 5 100 -500 100 R 40 40 1 1 P 
+X VCC 6 100 -700 100 R 40 40 1 1 W 
+X IN+ 7 100 0 100 R 40 40 1 1 I 
+X IN- 8 100 -100 100 R 40 40 1 1 I 
+S 200 100 800 -800 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

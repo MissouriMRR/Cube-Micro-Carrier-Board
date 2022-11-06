@@ -2806,7 +2806,7 @@
   (symbol (lib_name "Motor_Servo_Futaba_J_4") (lib_id "CubeCarrierBoard:Motor_Servo_Futaba_J") (at 40.005 94.615 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 059f00d3-aa84-4cdf-89fd-3dbb456a8968)
-    (property "Reference" "J?" (id 0) (at 14.605 94.615 0))
+    (property "Reference" "J10" (id 0) (at 14.605 94.615 0))
     (property "Value" "Main Servo 7" (id 1) (at 19.685 92.075 0))
     (property "Footprint" "" (id 2) (at 40.005 89.789 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2822,7 +2822,7 @@
   (symbol (lib_name "Motor_Servo_Futaba_J_1") (lib_id "CubeCarrierBoard:Motor_Servo_Futaba_J") (at 40.005 130.175 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 069e74cd-c876-4f45-bb9b-7fd78457e185)
-    (property "Reference" "J?" (id 0) (at 14.605 130.175 0))
+    (property "Reference" "J16" (id 0) (at 14.605 130.175 0))
     (property "Value" "Aux Servo 2" (id 1) (at 19.685 127.635 0))
     (property "Footprint" "" (id 2) (at 40.005 125.349 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2838,7 +2838,7 @@
   (symbol (lib_name "Motor_Servo_Futaba_J_5") (lib_id "CubeCarrierBoard:Motor_Servo_Futaba_J") (at 40.005 103.505 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0ae1dab3-3461-43a7-b6e7-fae8d7d7baaa)
-    (property "Reference" "J?" (id 0) (at 14.605 103.505 0))
+    (property "Reference" "J11" (id 0) (at 14.605 103.505 0))
     (property "Value" "Main Servo 8" (id 1) (at 19.685 100.965 0))
     (property "Footprint" "" (id 2) (at 40.005 98.679 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2854,7 +2854,7 @@
   (symbol (lib_id "power:GND") (at 305.435 119.38 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1b8b3644-6e3e-4151-a857-489272944d33)
-    (property "Reference" "#PWR?" (id 0) (at 305.435 125.73 0)
+    (property "Reference" "#PWR011" (id 0) (at 305.435 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 301.625 120.65 0))
@@ -2870,13 +2870,13 @@
   (symbol (lib_id "BM04B-GHS-TBT_LF__SN__N_:BM04B-GHS-TBT(LF)(SN)(N)") (at 381.635 138.43 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1fdc09f8-583b-48a0-9971-b25ba687deca)
-    (property "Reference" "J?" (id 0) (at 380.365 129.54 0)
+    (property "Reference" "J19" (id 0) (at 380.365 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN1" (id 1) (at 379.095 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JST_BM04B-GHS-TBT(LF)(SN)(N)" (id 2) (at 381.635 138.43 0)
+    (property "Footprint" "libraries:JST_BM04B-GHS-TBT(LF)(SN)(N)" (id 2) (at 381.635 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 381.635 138.43 0)
@@ -2905,13 +2905,13 @@
   (symbol (lib_name "BM04B-GHS-TBT(LF)(SN)(N)_2") (lib_id "BM04B-GHS-TBT_LF__SN__N_:BM04B-GHS-TBT(LF)(SN)(N)") (at 381.635 118.745 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2f441851-d1e3-42fd-a383-d5c10cd6f24b)
-    (property "Reference" "J?" (id 0) (at 380.365 109.855 0)
+    (property "Reference" "J14" (id 0) (at 380.365 109.855 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN2" (id 1) (at 379.095 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JST_BM04B-GHS-TBT(LF)(SN)(N)" (id 2) (at 381.635 118.745 0)
+    (property "Footprint" "libraries:JST_BM04B-GHS-TBT(LF)(SN)(N)" (id 2) (at 381.635 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 381.635 118.745 0)
@@ -2940,7 +2940,7 @@
   (symbol (lib_id "power:GND") (at 328.295 160.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3143dd82-eeaf-408a-9b2c-162c1f60d26a)
-    (property "Reference" "#PWR?" (id 0) (at 328.295 166.37 0)
+    (property "Reference" "#PWR019" (id 0) (at 328.295 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 324.485 161.29 0))
@@ -2956,13 +2956,13 @@
   (symbol (lib_name "BM06B-GHS-TBT(LF)(SN)(N)_1") (lib_id "BM06B-GHS-TBT_LF__SN__N_:BM06B-GHS-TBT(LF)(SN)(N)") (at 349.25 135.89 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 399dbaa6-f04f-4bc4-bb16-dbfe63f9d714)
-    (property "Reference" "J?" (id 0) (at 347.98 124.46 0)
+    (property "Reference" "J18" (id 0) (at 347.98 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TELEM1" (id 1) (at 346.075 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JST_BM06B-GHS-TBT(LF)(SN)(N)" (id 2) (at 349.25 135.89 0)
+    (property "Footprint" "libraries:JST_BM06B-GHS-TBT(LF)(SN)(N)" (id 2) (at 349.25 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 349.25 135.89 0)
@@ -2993,13 +2993,13 @@
   (symbol (lib_name "BM06B-GHS-TBT(LF)(SN)(N)_2") (lib_id "BM06B-GHS-TBT_LF__SN__N_:BM06B-GHS-TBT(LF)(SN)(N)") (at 316.865 113.665 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3e507c62-723d-41be-a182-b0a2592221b6)
-    (property "Reference" "J?" (id 0) (at 315.595 102.235 0)
+    (property "Reference" "J12" (id 0) (at 315.595 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "USB, LED & BUZZER" (id 1) (at 307.975 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JST_BM06B-GHS-TBT(LF)(SN)(N)" (id 2) (at 316.865 113.665 0)
+    (property "Footprint" "libraries:JST_BM06B-GHS-TBT(LF)(SN)(N)" (id 2) (at 316.865 113.665 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 316.865 113.665 0)
@@ -3030,7 +3030,7 @@
   (symbol (lib_id "power:GND") (at 85.725 57.785 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 40dc5c87-6e5c-45c9-9cfa-25c45645eab9)
-    (property "Reference" "#PWR?" (id 0) (at 85.725 64.135 0)
+    (property "Reference" "#PWR03" (id 0) (at 85.725 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 85.725 62.3475 0))
@@ -3046,7 +3046,7 @@
   (symbol (lib_id "power:GND") (at 353.695 95.885 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4113b243-7e70-4950-bbd1-8c0f862169d6)
-    (property "Reference" "#PWR?" (id 0) (at 353.695 102.235 0)
+    (property "Reference" "#PWR06" (id 0) (at 353.695 102.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 349.885 97.155 0))
@@ -3062,13 +3062,13 @@
   (symbol (lib_id "BM06B-GHS-TBT_LF__SN__N_:BM06B-GHS-TBT(LF)(SN)(N)") (at 381.635 160.655 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4a2691ed-65dd-4c57-a1e8-f06962262cd9)
-    (property "Reference" "J?" (id 0) (at 380.365 149.225 0)
+    (property "Reference" "J26" (id 0) (at 380.365 149.225 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TELEM2" (id 1) (at 378.46 169.545 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JST_BM06B-GHS-TBT(LF)(SN)(N)" (id 2) (at 381.635 160.655 0)
+    (property "Footprint" "libraries:JST_BM06B-GHS-TBT(LF)(SN)(N)" (id 2) (at 381.635 160.655 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 381.635 160.655 0)
@@ -3099,7 +3099,7 @@
   (symbol (lib_id "power:GND") (at 337.82 116.84 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4bfb910a-d143-4a3b-b4f9-55ddce6dc2d4)
-    (property "Reference" "#PWR?" (id 0) (at 337.82 123.19 0)
+    (property "Reference" "#PWR09" (id 0) (at 337.82 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 334.01 118.11 0))
@@ -3115,7 +3115,7 @@
   (symbol (lib_id "2022-11-05_21-49-56:S3B-ZR-SM4A-TFLFSN") (at 353.06 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4e47f043-bd97-46fa-bd94-ba7ab1bc37bd)
-    (property "Reference" "J?" (id 0) (at 360.68 85.09 0)
+    (property "Reference" "J9" (id 0) (at 360.68 85.09 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "SPKT" (id 1) (at 358.775 97.79 0)
@@ -3136,7 +3136,7 @@
   (symbol (lib_id "power:+5V") (at 27.305 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 537d0a23-3492-45a3-8312-72f612351ccf)
-    (property "Reference" "#PWR?" (id 0) (at 27.305 39.37 0)
+    (property "Reference" "#PWR01" (id 0) (at 27.305 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 27.305 31.9555 0))
@@ -3152,7 +3152,7 @@
   (symbol (lib_id "power:GND") (at 358.14 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5566ec04-d486-454a-9292-60dee22832fd)
-    (property "Reference" "#PWR?" (id 0) (at 358.14 120.65 0)
+    (property "Reference" "#PWR08" (id 0) (at 358.14 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 354.33 115.57 0))
@@ -3168,7 +3168,7 @@
   (symbol (lib_id "CubeCarrierBoard:Motor_Servo_Futaba_J") (at 40.005 139.065 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5d012789-87c2-45b7-93f0-195dcb2c490f)
-    (property "Reference" "J?" (id 0) (at 14.605 139.065 0))
+    (property "Reference" "J20" (id 0) (at 14.605 139.065 0))
     (property "Value" "Aux Servo 3" (id 1) (at 19.685 136.525 0))
     (property "Footprint" "" (id 2) (at 40.005 134.239 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3184,7 +3184,7 @@
   (symbol (lib_id "power:GND") (at 96.52 51.435 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5e0ab81b-18d9-4bd8-97c8-1e2eb4467095)
-    (property "Reference" "#PWR?" (id 0) (at 96.52 57.785 0)
+    (property "Reference" "#PWR02" (id 0) (at 96.52 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 96.52 55.9975 0))
@@ -3200,7 +3200,7 @@
   (symbol (lib_name "Motor_Servo_Futaba_J_3") (lib_id "CubeCarrierBoard:Motor_Servo_Futaba_J") (at 40.005 85.725 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 610f4d97-aaff-470b-9a99-c00b4c03642a)
-    (property "Reference" "J?" (id 0) (at 14.605 85.725 0))
+    (property "Reference" "J8" (id 0) (at 14.605 85.725 0))
     (property "Value" "Main Servo 6" (id 1) (at 19.685 83.185 0))
     (property "Footprint" "" (id 2) (at 40.005 80.899 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3216,7 +3216,7 @@
   (symbol (lib_id "CubeCarrierBoard:Motor_Servo_Futaba_J") (at 40.005 156.845 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 699f8e7f-aa1d-46d5-bd16-6d4ad13f41d4)
-    (property "Reference" "J?" (id 0) (at 14.605 156.845 0))
+    (property "Reference" "J23" (id 0) (at 14.605 156.845 0))
     (property "Value" "Aux Servo 5" (id 1) (at 19.685 154.305 0))
     (property "Footprint" "" (id 2) (at 40.005 152.019 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3232,13 +3232,13 @@
   (symbol (lib_id "CubeCarrierBoard:Pixhawk_Cube_DF17_80_Pin_Grouped") (at 218.44 142.24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6d73fb44-765d-45c7-b016-4af9943a7c88)
-    (property "Reference" "J?" (id 0) (at 187.325 86.995 0)
+    (property "Reference" "J21" (id 0) (at 187.325 86.995 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Pixhawk_Cube_DF17_80_Pin_Grouped" (id 1) (at 201.295 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 194.945 180.34 0)
+    (property "Footprint" "libraries:Cube_DF17_Mount" (id 2) (at 194.945 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 194.945 180.34 0)
@@ -3329,7 +3329,7 @@
   (symbol (lib_id "power:GND") (at 337.82 166.37 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6e8242af-9eab-4879-89be-195de4d120f0)
-    (property "Reference" "#PWR?" (id 0) (at 337.82 172.72 0)
+    (property "Reference" "#PWR022" (id 0) (at 337.82 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 334.01 167.64 0))
@@ -3345,7 +3345,7 @@
   (symbol (lib_name "Motor_Servo_Futaba_J_8") (lib_id "CubeCarrierBoard:Motor_Servo_Futaba_J") (at 40.005 50.165 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 759fe98e-f6af-42d8-908a-f473cec13ee5)
-    (property "Reference" "J?" (id 0) (at 14.605 50.165 0))
+    (property "Reference" "J3" (id 0) (at 14.605 50.165 0))
     (property "Value" "Main Servo 2" (id 1) (at 19.685 47.625 0))
     (property "Footprint" "" (id 2) (at 40.005 45.339 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3361,7 +3361,7 @@
   (symbol (lib_id "power:GND") (at 393.065 137.795 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 77841b5f-89ba-44c3-9795-5b78883872b7)
-    (property "Reference" "#PWR?" (id 0) (at 393.065 144.145 0)
+    (property "Reference" "#PWR015" (id 0) (at 393.065 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 389.255 139.065 0))
@@ -3377,7 +3377,7 @@
   (symbol (lib_id "power:GND") (at 360.68 160.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7ba10791-04fb-4227-83b6-d761b49ab056)
-    (property "Reference" "#PWR?" (id 0) (at 360.68 166.37 0)
+    (property "Reference" "#PWR020" (id 0) (at 360.68 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 356.87 161.29 0))
@@ -3393,7 +3393,7 @@
   (symbol (lib_id "power:GND") (at 360.68 135.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7dc7801e-0f40-4e3d-b255-f770d92dbec1)
-    (property "Reference" "#PWR?" (id 0) (at 360.68 141.605 0)
+    (property "Reference" "#PWR014" (id 0) (at 360.68 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 356.87 136.525 0))
@@ -3409,7 +3409,7 @@
   (symbol (lib_id "power:GND") (at 305.435 139.065 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 87160085-ee52-4f23-9f2b-83ecdd4f39f0)
-    (property "Reference" "#PWR?" (id 0) (at 305.435 145.415 0)
+    (property "Reference" "#PWR016" (id 0) (at 305.435 145.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 301.625 140.335 0))
@@ -3425,7 +3425,7 @@
   (symbol (lib_id "power:GND") (at 328.295 113.03 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 887bd1c8-b506-4505-8d2a-284d2565bdbd)
-    (property "Reference" "#PWR?" (id 0) (at 328.295 119.38 0)
+    (property "Reference" "#PWR07" (id 0) (at 328.295 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 324.485 114.3 0))
@@ -3441,7 +3441,7 @@
   (symbol (lib_id "power:GND") (at 96.52 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8a90432f-9e5e-4a37-a0bb-8668fc20a839)
-    (property "Reference" "#PWR?" (id 0) (at 96.52 94.615 0)
+    (property "Reference" "#PWR04" (id 0) (at 96.52 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 96.52 92.8275 0))
@@ -3457,7 +3457,7 @@
   (symbol (lib_id "power:GND") (at 305.435 168.91 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8bb2bb80-7df0-4295-8583-912d158e3c95)
-    (property "Reference" "#PWR?" (id 0) (at 305.435 175.26 0)
+    (property "Reference" "#PWR024" (id 0) (at 305.435 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 301.625 170.18 0))
@@ -3473,7 +3473,7 @@
   (symbol (lib_name "Motor_Servo_Futaba_J_10") (lib_id "CubeCarrierBoard:Motor_Servo_Futaba_J") (at 40.005 67.945 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8e63e377-c2cb-434b-9238-0663ff8e2da2)
-    (property "Reference" "J?" (id 0) (at 14.605 67.945 0))
+    (property "Reference" "J5" (id 0) (at 14.605 67.945 0))
     (property "Value" "Main Servo 4" (id 1) (at 19.685 65.405 0))
     (property "Footprint" "" (id 2) (at 40.005 63.119 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3489,13 +3489,13 @@
   (symbol (lib_id "BM08B-GHS-TBT_LF__SN__N_:BM08B-GHS-TBT(LF)(SN)(N)") (at 316.865 160.655 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8fdae394-49ef-4bd9-94b1-b8e11bae7cf2)
-    (property "Reference" "J?" (id 0) (at 315.595 146.685 0)
+    (property "Reference" "J24" (id 0) (at 315.595 146.685 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GPS1 & I2C1" (id 1) (at 310.515 172.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JST_BM08B-GHS-TBT(LF)(SN)(N)" (id 2) (at 316.865 160.655 0)
+    (property "Footprint" "libraries:JST_BM08B-GHS-TBT(LF)(SN)(N)" (id 2) (at 316.865 160.655 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 316.865 160.655 0)
@@ -3537,7 +3537,7 @@
   (symbol (lib_id "power:GND") (at 28.575 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9c5d0116-a60e-4063-8012-95f75101fa29)
-    (property "Reference" "#PWR?" (id 0) (at 28.575 177.8 0)
+    (property "Reference" "#PWR025" (id 0) (at 28.575 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 28.575 176.0125 0))
@@ -3553,7 +3553,7 @@
   (symbol (lib_id "power:GND") (at 393.065 118.11 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9d56f000-7c72-44de-83b4-4dd7d1057d25)
-    (property "Reference" "#PWR?" (id 0) (at 393.065 124.46 0)
+    (property "Reference" "#PWR010" (id 0) (at 393.065 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 389.255 119.38 0))
@@ -3569,7 +3569,7 @@
   (symbol (lib_id "power:GND") (at 370.205 166.37 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a22c945a-2aae-4294-a2f7-c53d7e9ca830)
-    (property "Reference" "#PWR?" (id 0) (at 370.205 172.72 0)
+    (property "Reference" "#PWR023" (id 0) (at 370.205 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 366.395 167.64 0))
@@ -3585,9 +3585,9 @@
   (symbol (lib_id "CubeCarrierBoard:6-Pin_Clik-Mate_F") (at 85.725 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid aaf84677-348f-438d-b71a-446a2b3e4a93)
-    (property "Reference" "J?" (id 0) (at 85.725 30.9585 0))
+    (property "Reference" "J2" (id 0) (at 85.725 30.9585 0))
     (property "Value" "Power 1" (id 1) (at 85.725 33.7336 0))
-    (property "Footprint" "MOLEX_5024430670" (id 2) (at 73.025 60.96 0)
+    (property "Footprint" "libraries:MOLEX_5024430670" (id 2) (at 73.025 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 83.82 47.625 0)
@@ -3617,7 +3617,7 @@
   (symbol (lib_name "Motor_Servo_Futaba_J_2") (lib_id "CubeCarrierBoard:Motor_Servo_Futaba_J") (at 40.005 41.275 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bcaa4e54-1685-43b9-9075-436f6f9f45e4)
-    (property "Reference" "J?" (id 0) (at 14.605 40.005 0))
+    (property "Reference" "J1" (id 0) (at 14.605 40.005 0))
     (property "Value" "Main Servo 1" (id 1) (at 19.685 37.465 0))
     (property "Footprint" "" (id 2) (at 40.005 36.449 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3633,7 +3633,7 @@
   (symbol (lib_name "Motor_Servo_Futaba_J_6") (lib_id "CubeCarrierBoard:Motor_Servo_Futaba_J") (at 40.005 121.285 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c5a9d6bc-a07e-4e19-b1e9-a8779572915a)
-    (property "Reference" "J?" (id 0) (at 14.605 121.285 0))
+    (property "Reference" "J15" (id 0) (at 14.605 121.285 0))
     (property "Value" "Aux Servo 1" (id 1) (at 19.685 118.745 0))
     (property "Footprint" "" (id 2) (at 40.005 116.459 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3649,7 +3649,7 @@
   (symbol (lib_id "power:GND") (at 370.205 121.92 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cabbc647-3415-453b-9512-68d012591fdd)
-    (property "Reference" "#PWR?" (id 0) (at 370.205 128.27 0)
+    (property "Reference" "#PWR012" (id 0) (at 370.205 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 366.395 123.19 0))
@@ -3665,7 +3665,7 @@
   (symbol (lib_id "power:GND") (at 370.205 141.605 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d737a391-b8c1-4286-bfae-29fd345417b7)
-    (property "Reference" "#PWR?" (id 0) (at 370.205 147.955 0)
+    (property "Reference" "#PWR018" (id 0) (at 370.205 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 366.395 142.875 0))
@@ -3681,7 +3681,7 @@
   (symbol (lib_name "Motor_Servo_Futaba_J_7") (lib_id "CubeCarrierBoard:Motor_Servo_Futaba_J") (at 40.005 76.835 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dbedb08a-199c-483b-81a4-11ebed5711ed)
-    (property "Reference" "J?" (id 0) (at 14.605 76.835 0))
+    (property "Reference" "J6" (id 0) (at 14.605 76.835 0))
     (property "Value" "Main Servo 5" (id 1) (at 19.685 74.295 0))
     (property "Footprint" "" (id 2) (at 40.005 72.009 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3697,9 +3697,9 @@
   (symbol (lib_id "BM03B-GHS-TBT_LF__SN__N_:BM03B-GHS-TBT(LF)(SN)(N)") (at 347.345 116.205 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ddbad9ad-46c2-458f-b271-773454fa53b9)
-    (property "Reference" "J?" (id 0) (at 349.25 107.315 0))
+    (property "Reference" "J13" (id 0) (at 349.25 107.315 0))
     (property "Value" "ADC" (id 1) (at 349.25 120.015 0))
-    (property "Footprint" "CONN_BM03B-GHS-TBT(LF)(SN)(N)" (id 2) (at 347.345 116.205 0)
+    (property "Footprint" "libraries:CONN_BM03B-GHS-TBT(LF)(SN)(N)" (id 2) (at 347.345 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 347.345 116.205 0)
@@ -3718,7 +3718,7 @@
   (symbol (lib_id "power:GND") (at 85.725 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e1e6e402-3a56-4f8d-b6bf-dd04fe1fca13)
-    (property "Reference" "#PWR?" (id 0) (at 85.725 100.965 0)
+    (property "Reference" "#PWR05" (id 0) (at 85.725 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 85.725 99.1775 0))
@@ -3734,7 +3734,7 @@
   (symbol (lib_id "CubeCarrierBoard:Motor_Servo_Futaba_J") (at 40.005 147.955 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e46cc33a-19dc-4558-a856-f5cb26ef6dba)
-    (property "Reference" "J?" (id 0) (at 14.605 147.955 0))
+    (property "Reference" "J22" (id 0) (at 14.605 147.955 0))
     (property "Value" "Aux Servo 4" (id 1) (at 19.685 145.415 0))
     (property "Footprint" "" (id 2) (at 40.005 143.129 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3750,9 +3750,9 @@
   (symbol (lib_id "CubeCarrierBoard:6-Pin_Clik-Mate_F") (at 85.725 84.455 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e5838245-9b7b-4546-91b2-665862a210e2)
-    (property "Reference" "J?" (id 0) (at 85.725 67.7885 0))
+    (property "Reference" "J7" (id 0) (at 85.725 67.7885 0))
     (property "Value" "Power 2" (id 1) (at 85.725 70.5636 0))
-    (property "Footprint" "MOLEX_5024430670" (id 2) (at 73.025 97.79 0)
+    (property "Footprint" "libraries:MOLEX_5024430670" (id 2) (at 73.025 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 83.82 84.455 0)
@@ -3782,7 +3782,7 @@
   (symbol (lib_id "power:GND") (at 328.295 135.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e685ba6d-b633-4a9a-aaf3-1ad88a5891f6)
-    (property "Reference" "#PWR?" (id 0) (at 328.295 141.605 0)
+    (property "Reference" "#PWR013" (id 0) (at 328.295 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 324.485 136.525 0))
@@ -3798,7 +3798,7 @@
   (symbol (lib_name "Motor_Servo_Futaba_J_9") (lib_id "CubeCarrierBoard:Motor_Servo_Futaba_J") (at 40.005 59.055 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e6ac70e0-2f68-4455-a1dc-0b35d382c777)
-    (property "Reference" "J?" (id 0) (at 14.605 59.055 0))
+    (property "Reference" "J4" (id 0) (at 14.605 59.055 0))
     (property "Value" "Main Servo 3" (id 1) (at 19.685 56.515 0))
     (property "Footprint" "" (id 2) (at 40.005 54.229 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3814,13 +3814,13 @@
   (symbol (lib_name "BM06B-GHS-TBT(LF)(SN)(N)_3") (lib_id "BM06B-GHS-TBT_LF__SN__N_:BM06B-GHS-TBT(LF)(SN)(N)") (at 349.25 160.655 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ea087a16-7cf2-46fd-b684-952f92bef138)
-    (property "Reference" "J?" (id 0) (at 347.98 149.225 0)
+    (property "Reference" "J25" (id 0) (at 347.98 149.225 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GPS2 & I2C2" (id 1) (at 342.9 169.545 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JST_BM06B-GHS-TBT(LF)(SN)(N)" (id 2) (at 349.25 160.655 0)
+    (property "Footprint" "libraries:JST_BM06B-GHS-TBT(LF)(SN)(N)" (id 2) (at 349.25 160.655 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 349.25 160.655 0)
@@ -3851,7 +3851,7 @@
   (symbol (lib_id "power:GND") (at 337.82 141.605 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ed1c4d15-66bf-42c7-9649-5f75c6963c4e)
-    (property "Reference" "#PWR?" (id 0) (at 337.82 147.955 0)
+    (property "Reference" "#PWR017" (id 0) (at 337.82 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 334.01 142.875 0))
@@ -3867,13 +3867,13 @@
   (symbol (lib_id "BM04B-GHS-TBT_LF__SN__N_:BM04B-GHS-TBT(LF)(SN)(N)") (at 316.865 135.89 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f649b7b7-2754-4082-a9d7-98270b2d62a3)
-    (property "Reference" "J?" (id 0) (at 315.595 127 0)
+    (property "Reference" "J17" (id 0) (at 315.595 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "I2C2" (id 1) (at 314.96 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JST_BM04B-GHS-TBT(LF)(SN)(N)" (id 2) (at 316.865 135.89 0)
+    (property "Footprint" "libraries:JST_BM04B-GHS-TBT(LF)(SN)(N)" (id 2) (at 316.865 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 316.865 135.89 0)
@@ -3902,7 +3902,7 @@
   (symbol (lib_id "power:GND") (at 393.065 160.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f823a200-98c1-4b14-98a8-9e3604f63c28)
-    (property "Reference" "#PWR?" (id 0) (at 393.065 166.37 0)
+    (property "Reference" "#PWR021" (id 0) (at 393.065 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 389.255 161.29 0))
@@ -3918,7 +3918,7 @@
   (symbol (lib_id "CubeCarrierBoard:Motor_Servo_Futaba_J") (at 40.005 165.735 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ffd91a8d-bee6-4976-a22f-d34993ce9a8f)
-    (property "Reference" "J?" (id 0) (at 14.605 165.735 0))
+    (property "Reference" "J27" (id 0) (at 14.605 165.735 0))
     (property "Value" "Aux Servo 6" (id 1) (at 19.685 163.195 0))
     (property "Footprint" "" (id 2) (at 40.005 160.909 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3931,166 +3931,559 @@
     (pin "3" (uuid 6980cf13-9160-4f50-aef9-bff5f171e3b8))
   )
 
+  (sheet (at 62.865 199.39) (size 43.18 55.88) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4a08accc-5be5-4bdc-9881-32ffc90b7889)
+    (property "Sheet name" "Power Selection Module" (id 0) (at 62.865 198.6784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "PSM.kicad_sch" (id 1) (at 62.865 255.8546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "VDD_5V_BACKUP" input (at 83.185 199.39 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 0c0735a9-9b62-4fe1-aea9-2c3dbd07efb3)
+    )
+    (pin "~{VDD_BACKUP_VALID}" input (at 106.045 224.79 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 3a35e9de-7aea-40f2-9c1e-6f6287ffd717)
+    )
+    (pin "VDD_5V_BRICK" input (at 78.105 199.39 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 4b5c8e9d-e024-4c3e-8b74-d17909541015)
+    )
+    (pin "VBUS" input (at 88.265 199.39 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 713f3d1e-ec17-44af-9b49-80229d04530f)
+    )
+    (pin "VDD_5V_IN" input (at 62.865 207.645 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid d2236dc1-9a06-43f2-9da8-f8e382c341ca)
+    )
+    (pin "SERVO_POWER_IN" input (at 106.045 219.71 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 84a71e44-8e2c-4bef-84b6-41e49ae46b02)
+    )
+    (pin "RX" input (at 62.865 224.79 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b042c434-12a6-437a-8bf2-1b0c364a6762)
+    )
+    (pin "NC" input (at 62.865 222.25 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 29216482-2a4e-485e-ada5-9c75cae74616)
+    )
+    (pin "VDD_3V3_SPEKTRUM_EN" input (at 80.645 255.27 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 63faf43a-27f0-429b-8e36-6164eea9cbd9)
+    )
+    (pin "VDD_5V_IN_PROT" input (at 106.045 229.87 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid cc3baa1f-5626-4b90-82cf-f7d533647366)
+    )
+    (pin "~{VDD_BRICK_VALID}" input (at 106.045 227.33 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 6342a8fa-5f7f-4a2d-b37b-db9b2a0649e9)
+    )
+    (pin "~{VBUS_VALID}" input (at 106.045 222.25 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 8103e6f6-7b52-44f4-a038-534d28687ed2)
+    )
+    (pin "ALARM" input (at 88.265 255.27 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 5f95f725-d144-4953-807f-1d6dd62c1b61)
+    )
+    (pin "VDD_3V3_SPEKTRUM" input (at 62.865 219.71 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid d814a3b4-ee48-476f-94a8-761c3dc8d190)
+    )
+    (pin "~{VDD_5V_HIPOWER_OC}" input (at 85.725 255.27 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid a134bdf5-2ca5-4b7f-ac73-fe504397af9d)
+    )
+    (pin "VDD_5V_HIPOWER" input (at 62.865 229.87 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 8012d1bc-1c92-45c3-a915-5760027c5863)
+    )
+    (pin "~{VDD_5V_PERIPH_EN}" input (at 83.185 255.27 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c594bd70-9af7-404a-abb1-c57b4b01430c)
+    )
+    (pin "~{VDD_5V_PERIPH_OC}" input (at 78.105 255.27 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 83613d82-6527-4061-8b7a-49a5b11b7370)
+    )
+    (pin "VDD_5V_PERIPH" input (at 62.865 227.33 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 15c0b7b5-f251-4d88-9092-732256a52d7c)
+    )
+    (pin "BUZZER_OUT" input (at 90.805 255.27 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 2f312bd1-393d-463f-9917-ddf22a1a1db0)
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889" (page "2"))
   )
 
   (symbol_instances
-    (path "/1b8b3644-6e3e-4151-a857-489272944d33"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/3143dd82-eeaf-408a-9b2c-162c1f60d26a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/40dc5c87-6e5c-45c9-9cfa-25c45645eab9"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4113b243-7e70-4950-bbd1-8c0f862169d6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4bfb910a-d143-4a3b-b4f9-55ddce6dc2d4"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/537d0a23-3492-45a3-8312-72f612351ccf"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/5566ec04-d486-454a-9292-60dee22832fd"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR01") (unit 1) (value "+5V") (footprint "")
     )
     (path "/5e0ab81b-18d9-4bd8-97c8-1e2eb4467095"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
-    (path "/6e8242af-9eab-4879-89be-195de4d120f0"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/77841b5f-89ba-44c3-9795-5b78883872b7"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/7ba10791-04fb-4227-83b6-d761b49ab056"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/7dc7801e-0f40-4e3d-b255-f770d92dbec1"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/87160085-ee52-4f23-9f2b-83ecdd4f39f0"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/887bd1c8-b506-4505-8d2a-284d2565bdbd"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/40dc5c87-6e5c-45c9-9cfa-25c45645eab9"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
     )
     (path "/8a90432f-9e5e-4a37-a0bb-8668fc20a839"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8bb2bb80-7df0-4295-8583-912d158e3c95"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/9c5d0116-a60e-4063-8012-95f75101fa29"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/9d56f000-7c72-44de-83b4-4dd7d1057d25"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a22c945a-2aae-4294-a2f7-c53d7e9ca830"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/cabbc647-3415-453b-9512-68d012591fdd"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d737a391-b8c1-4286-bfae-29fd345417b7"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
     (path "/e1e6e402-3a56-4f8d-b6bf-dd04fe1fca13"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4113b243-7e70-4950-bbd1-8c0f862169d6"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/887bd1c8-b506-4505-8d2a-284d2565bdbd"
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5566ec04-d486-454a-9292-60dee22832fd"
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4bfb910a-d143-4a3b-b4f9-55ddce6dc2d4"
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/9d56f000-7c72-44de-83b4-4dd7d1057d25"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1b8b3644-6e3e-4151-a857-489272944d33"
+      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cabbc647-3415-453b-9512-68d012591fdd"
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
     (path "/e685ba6d-b633-4a9a-aaf3-1ad88a5891f6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7dc7801e-0f40-4e3d-b255-f770d92dbec1"
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/77841b5f-89ba-44c3-9795-5b78883872b7"
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/87160085-ee52-4f23-9f2b-83ecdd4f39f0"
+      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
     (path "/ed1c4d15-66bf-42c7-9649-5f75c6963c4e"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d737a391-b8c1-4286-bfae-29fd345417b7"
+      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3143dd82-eeaf-408a-9b2c-162c1f60d26a"
+      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7ba10791-04fb-4227-83b6-d761b49ab056"
+      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
     )
     (path "/f823a200-98c1-4b14-98a8-9e3604f63c28"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR021") (unit 1) (value "GND") (footprint "")
     )
-    (path "/059f00d3-aa84-4cdf-89fd-3dbb456a8968"
-      (reference "J?") (unit 1) (value "Main Servo 7") (footprint "")
+    (path "/6e8242af-9eab-4879-89be-195de4d120f0"
+      (reference "#PWR022") (unit 1) (value "GND") (footprint "")
     )
-    (path "/069e74cd-c876-4f45-bb9b-7fd78457e185"
-      (reference "J?") (unit 1) (value "Aux Servo 2") (footprint "")
+    (path "/a22c945a-2aae-4294-a2f7-c53d7e9ca830"
+      (reference "#PWR023") (unit 1) (value "GND") (footprint "")
     )
-    (path "/0ae1dab3-3461-43a7-b6e7-fae8d7d7baaa"
-      (reference "J?") (unit 1) (value "Main Servo 8") (footprint "")
+    (path "/8bb2bb80-7df0-4295-8583-912d158e3c95"
+      (reference "#PWR024") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1fdc09f8-583b-48a0-9971-b25ba687deca"
-      (reference "J?") (unit 1) (value "CAN1") (footprint "JST_BM04B-GHS-TBT(LF)(SN)(N)")
+    (path "/9c5d0116-a60e-4063-8012-95f75101fa29"
+      (reference "#PWR025") (unit 1) (value "GND") (footprint "")
     )
-    (path "/2f441851-d1e3-42fd-a383-d5c10cd6f24b"
-      (reference "J?") (unit 1) (value "CAN2") (footprint "JST_BM04B-GHS-TBT(LF)(SN)(N)")
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/7fab2f9d-7364-4bd3-89ed-2ed679294b30"
+      (reference "#PWR026") (unit 1) (value "GND") (footprint "")
     )
-    (path "/399dbaa6-f04f-4bc4-bb16-dbfe63f9d714"
-      (reference "J?") (unit 1) (value "TELEM1") (footprint "JST_BM06B-GHS-TBT(LF)(SN)(N)")
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/63e5aa21-03c6-4c96-8bea-f5fc28b21a2e"
+      (reference "#PWR027") (unit 1) (value "GND") (footprint "")
     )
-    (path "/3e507c62-723d-41be-a182-b0a2592221b6"
-      (reference "J?") (unit 1) (value "USB, LED & BUZZER") (footprint "JST_BM06B-GHS-TBT(LF)(SN)(N)")
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/928133a4-89c3-43dd-b964-710172656e9f"
+      (reference "#PWR028") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4a2691ed-65dd-4c57-a1e8-f06962262cd9"
-      (reference "J?") (unit 1) (value "TELEM2") (footprint "JST_BM06B-GHS-TBT(LF)(SN)(N)")
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/956247da-26d4-4c84-a1ba-56fcd9b625a0"
+      (reference "#PWR029") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4e47f043-bd97-46fa-bd94-ba7ab1bc37bd"
-      (reference "J?") (unit 1) (value "SPKT") (footprint "CONN_S3B-ZR-SM4A-TFLFSN_JST")
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/a03cf849-0931-4efc-ae41-0fa57d817e32"
+      (reference "#PWR030") (unit 1) (value "GND") (footprint "")
     )
-    (path "/5d012789-87c2-45b7-93f0-195dcb2c490f"
-      (reference "J?") (unit 1) (value "Aux Servo 3") (footprint "")
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/b0558777-7aca-4097-918a-2a56d99ac7d1"
+      (reference "#PWR031") (unit 1) (value "GND") (footprint "")
     )
-    (path "/610f4d97-aaff-470b-9a99-c00b4c03642a"
-      (reference "J?") (unit 1) (value "Main Servo 6") (footprint "")
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/622abe8a-4828-4b05-9a64-28c74c6e5d06"
+      (reference "#PWR032") (unit 1) (value "GND") (footprint "")
     )
-    (path "/699f8e7f-aa1d-46d5-bd16-6d4ad13f41d4"
-      (reference "J?") (unit 1) (value "Aux Servo 5") (footprint "")
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/a8097a06-93ad-42a5-996e-65a3612c562f"
+      (reference "#PWR033") (unit 1) (value "GND") (footprint "")
     )
-    (path "/6d73fb44-765d-45c7-b016-4af9943a7c88"
-      (reference "J?") (unit 1) (value "Pixhawk_Cube_DF17_80_Pin_Grouped") (footprint "")
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/5a04fdd4-346f-4b5b-b846-785e19dae4ca"
+      (reference "#PWR034") (unit 1) (value "GND") (footprint "")
     )
-    (path "/759fe98e-f6af-42d8-908a-f473cec13ee5"
-      (reference "J?") (unit 1) (value "Main Servo 2") (footprint "")
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/11c4e604-9348-4792-b6d4-1037c7f01527"
+      (reference "#PWR035") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8e63e377-c2cb-434b-9238-0663ff8e2da2"
-      (reference "J?") (unit 1) (value "Main Servo 4") (footprint "")
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/a3bd6f30-bfa3-4cf5-9521-ee641faabb23"
+      (reference "#PWR036") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8fdae394-49ef-4bd9-94b1-b8e11bae7cf2"
-      (reference "J?") (unit 1) (value "GPS1 & I2C1") (footprint "JST_BM08B-GHS-TBT(LF)(SN)(N)")
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/3703142b-bee9-4aa4-93af-844217c52bda"
+      (reference "#PWR037") (unit 1) (value "GND") (footprint "")
     )
-    (path "/aaf84677-348f-438d-b71a-446a2b3e4a93"
-      (reference "J?") (unit 1) (value "Power 1") (footprint "MOLEX_5024430670")
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/61150de2-c822-4d2f-9e8d-0fd1b26bbd1f"
+      (reference "#PWR038") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/e2ba1ffd-eba4-4ac7-a89c-bd6364189eda"
+      (reference "#PWR039") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/4218247d-37a2-4b10-a088-cf1f59132f1e"
+      (reference "#PWR040") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/e38baf51-f53f-4e05-b1b2-f017dd90c67d"
+      (reference "#PWR041") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/30e7b113-1d77-43ef-b276-d5b9c828c208"
+      (reference "#PWR042") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/d17661dd-d129-4fc5-b76a-2657c3ea0585"
+      (reference "#PWR043") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/ada485ae-f3bb-4c21-9960-2396eaf0efab"
+      (reference "#PWR044") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/f47da23c-a589-4a97-8141-51319bfb0fbf"
+      (reference "#PWR045") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/508cc445-ecb9-4352-9eed-ca998eef4365"
+      (reference "#PWR046") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/ab0dbdeb-27a0-4a1f-8d95-d46390dfc80a"
+      (reference "#PWR047") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/43fc69b3-3cfa-4aad-b9ef-de8f7741c41e"
+      (reference "#PWR048") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/1d1364a0-b09f-45b4-8d61-5fead5878174"
+      (reference "#PWR049") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/39594e2c-8f89-457c-add7-96080c42946f"
+      (reference "#PWR050") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/5286e540-18ab-4d90-afbe-c62c27124857"
+      (reference "#PWR051") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/7ccb734d-ad07-43d6-8bce-5457a4c11695"
+      (reference "#PWR052") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/d7e3286f-b65c-4be7-9a99-1641a1cbd660"
+      (reference "#PWR053") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/82cfd6e1-f816-44cd-85ab-c934a861f2ad"
+      (reference "#PWR054") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/d0349a12-d8fe-400c-9da9-a76856c1c657"
+      (reference "#PWR055") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/c55210e2-b1f3-4fa1-83b1-bb4e84596f07"
+      (reference "#PWR056") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/3dcae40f-9ec2-493f-938e-938c55cbd47a"
+      (reference "#PWR057") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/2d6f099d-4844-4af4-8bd3-4b6af160ccaf"
+      (reference "#PWR058") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/4bceae81-1cda-46ac-a76a-4c3cb242558d"
+      (reference "#PWR059") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/30b5c1c1-b94c-454a-a726-68c855620277"
+      (reference "C1") (unit 1) (value "100u") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/52d9df35-3a4b-4b83-8e05-57c487058f76"
+      (reference "C2") (unit 1) (value "100u") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/77931dd5-b6a6-4fb3-8fb8-e98563098604"
+      (reference "C3") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/21fd61c3-c911-41cb-abc8-5d14a84dd2fc"
+      (reference "C4") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/1c39dc35-9f0b-4ff2-9e38-520b71deaf04"
+      (reference "C5") (unit 1) (value "100u") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/ec5f46a7-2cd4-4d60-ac03-883916c6eae7"
+      (reference "C6") (unit 1) (value "100u") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/f9f73713-d0c6-41f1-8b90-442e7dadf223"
+      (reference "C7") (unit 1) (value "0u1/25V") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/04ccdf83-e362-46ee-ba21-0205ad0f9e03"
+      (reference "C8") (unit 1) (value "0u1/25V") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/53a80034-90c8-4a57-bc57-727de4831ca4"
+      (reference "C9") (unit 1) (value "0u1/25V") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/fe6e9a6c-e786-4c45-abdd-d11767c156ca"
+      (reference "C10") (unit 1) (value "10p/25V") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/270c8fa2-c163-4ef6-b927-d19f4008c256"
+      (reference "C11") (unit 1) (value "10p/25V") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/ec2ce2ea-24b3-4a7b-b121-f10aecdfd45a"
+      (reference "C12") (unit 1) (value "1000p/25V") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/196566ab-79bb-4012-8ff4-81d010b1dec9"
+      (reference "C13") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/05b83d1a-d918-4089-9f90-75f1a96113ae"
+      (reference "C14") (unit 1) (value "10u/25V") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/f1e75f74-c118-4c36-a00a-761350905d74"
+      (reference "C15") (unit 1) (value "0u1") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/9fe1c5af-5496-468b-8aa6-9fc46b1bd378"
+      (reference "C16") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/b15c8677-14f1-4fe1-a12d-1124ca18ebde"
+      (reference "C17") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/eaa86641-166b-4d84-8df9-e7380a50dd0b"
+      (reference "C18") (unit 1) (value "0u47") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/922f2725-3199-46d3-859f-b7563b76e18d"
+      (reference "C19") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/2a06e6a7-a2c0-4adc-93a0-a36f2623a788"
+      (reference "C20") (unit 1) (value "5n6") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/58ab4b7c-925a-4801-a994-6cf314add59a"
+      (reference "D1") (unit 1) (value "D") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/18a5550b-f87f-43de-bfc7-d42c5e9097d6"
+      (reference "D2") (unit 1) (value "PMEG2005CT") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/5cf6c720-9c9e-4fab-bdae-38ba86af8d47"
+      (reference "D3") (unit 1) (value "PMEG2005CT") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/b3dfa314-863e-40b5-8b33-b2eba6aeb52c"
+      (reference "F1") (unit 1) (value "Polyfuse") (footprint "Fuse:Fuse_1206_3216Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/bed88545-a59d-4fb0-aa19-a309b716f439"
+      (reference "F2") (unit 1) (value "Polyfuse") (footprint "Fuse:Fuse_1206_3216Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/f00cd45a-b7e3-4d5b-af4c-c49dcc0bc404"
+      (reference "F3") (unit 1) (value "Polyfuse") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/bcaa4e54-1685-43b9-9075-436f6f9f45e4"
-      (reference "J?") (unit 1) (value "Main Servo 1") (footprint "")
+      (reference "J1") (unit 1) (value "Main Servo 1") (footprint "")
     )
-    (path "/c5a9d6bc-a07e-4e19-b1e9-a8779572915a"
-      (reference "J?") (unit 1) (value "Aux Servo 1") (footprint "")
+    (path "/aaf84677-348f-438d-b71a-446a2b3e4a93"
+      (reference "J2") (unit 1) (value "Power 1") (footprint "libraries:MOLEX_5024430670")
     )
-    (path "/dbedb08a-199c-483b-81a4-11ebed5711ed"
-      (reference "J?") (unit 1) (value "Main Servo 5") (footprint "")
-    )
-    (path "/ddbad9ad-46c2-458f-b271-773454fa53b9"
-      (reference "J?") (unit 1) (value "ADC") (footprint "CONN_BM03B-GHS-TBT(LF)(SN)(N)")
-    )
-    (path "/e46cc33a-19dc-4558-a856-f5cb26ef6dba"
-      (reference "J?") (unit 1) (value "Aux Servo 4") (footprint "")
-    )
-    (path "/e5838245-9b7b-4546-91b2-665862a210e2"
-      (reference "J?") (unit 1) (value "Power 2") (footprint "MOLEX_5024430670")
+    (path "/759fe98e-f6af-42d8-908a-f473cec13ee5"
+      (reference "J3") (unit 1) (value "Main Servo 2") (footprint "")
     )
     (path "/e6ac70e0-2f68-4455-a1dc-0b35d382c777"
-      (reference "J?") (unit 1) (value "Main Servo 3") (footprint "")
+      (reference "J4") (unit 1) (value "Main Servo 3") (footprint "")
     )
-    (path "/ea087a16-7cf2-46fd-b684-952f92bef138"
-      (reference "J?") (unit 1) (value "GPS2 & I2C2") (footprint "JST_BM06B-GHS-TBT(LF)(SN)(N)")
+    (path "/8e63e377-c2cb-434b-9238-0663ff8e2da2"
+      (reference "J5") (unit 1) (value "Main Servo 4") (footprint "")
+    )
+    (path "/dbedb08a-199c-483b-81a4-11ebed5711ed"
+      (reference "J6") (unit 1) (value "Main Servo 5") (footprint "")
+    )
+    (path "/e5838245-9b7b-4546-91b2-665862a210e2"
+      (reference "J7") (unit 1) (value "Power 2") (footprint "libraries:MOLEX_5024430670")
+    )
+    (path "/610f4d97-aaff-470b-9a99-c00b4c03642a"
+      (reference "J8") (unit 1) (value "Main Servo 6") (footprint "")
+    )
+    (path "/4e47f043-bd97-46fa-bd94-ba7ab1bc37bd"
+      (reference "J9") (unit 1) (value "SPKT") (footprint "CONN_S3B-ZR-SM4A-TFLFSN_JST")
+    )
+    (path "/059f00d3-aa84-4cdf-89fd-3dbb456a8968"
+      (reference "J10") (unit 1) (value "Main Servo 7") (footprint "")
+    )
+    (path "/0ae1dab3-3461-43a7-b6e7-fae8d7d7baaa"
+      (reference "J11") (unit 1) (value "Main Servo 8") (footprint "")
+    )
+    (path "/3e507c62-723d-41be-a182-b0a2592221b6"
+      (reference "J12") (unit 1) (value "USB, LED & BUZZER") (footprint "libraries:JST_BM06B-GHS-TBT(LF)(SN)(N)")
+    )
+    (path "/ddbad9ad-46c2-458f-b271-773454fa53b9"
+      (reference "J13") (unit 1) (value "ADC") (footprint "libraries:CONN_BM03B-GHS-TBT(LF)(SN)(N)")
+    )
+    (path "/2f441851-d1e3-42fd-a383-d5c10cd6f24b"
+      (reference "J14") (unit 1) (value "CAN2") (footprint "libraries:JST_BM04B-GHS-TBT(LF)(SN)(N)")
+    )
+    (path "/c5a9d6bc-a07e-4e19-b1e9-a8779572915a"
+      (reference "J15") (unit 1) (value "Aux Servo 1") (footprint "")
+    )
+    (path "/069e74cd-c876-4f45-bb9b-7fd78457e185"
+      (reference "J16") (unit 1) (value "Aux Servo 2") (footprint "")
     )
     (path "/f649b7b7-2754-4082-a9d7-98270b2d62a3"
-      (reference "J?") (unit 1) (value "I2C2") (footprint "JST_BM04B-GHS-TBT(LF)(SN)(N)")
+      (reference "J17") (unit 1) (value "I2C2") (footprint "libraries:JST_BM04B-GHS-TBT(LF)(SN)(N)")
+    )
+    (path "/399dbaa6-f04f-4bc4-bb16-dbfe63f9d714"
+      (reference "J18") (unit 1) (value "TELEM1") (footprint "libraries:JST_BM06B-GHS-TBT(LF)(SN)(N)")
+    )
+    (path "/1fdc09f8-583b-48a0-9971-b25ba687deca"
+      (reference "J19") (unit 1) (value "CAN1") (footprint "libraries:JST_BM04B-GHS-TBT(LF)(SN)(N)")
+    )
+    (path "/5d012789-87c2-45b7-93f0-195dcb2c490f"
+      (reference "J20") (unit 1) (value "Aux Servo 3") (footprint "")
+    )
+    (path "/6d73fb44-765d-45c7-b016-4af9943a7c88"
+      (reference "J21") (unit 1) (value "Pixhawk_Cube_DF17_80_Pin_Grouped") (footprint "libraries:Cube_DF17_Mount")
+    )
+    (path "/e46cc33a-19dc-4558-a856-f5cb26ef6dba"
+      (reference "J22") (unit 1) (value "Aux Servo 4") (footprint "")
+    )
+    (path "/699f8e7f-aa1d-46d5-bd16-6d4ad13f41d4"
+      (reference "J23") (unit 1) (value "Aux Servo 5") (footprint "")
+    )
+    (path "/8fdae394-49ef-4bd9-94b1-b8e11bae7cf2"
+      (reference "J24") (unit 1) (value "GPS1 & I2C1") (footprint "libraries:JST_BM08B-GHS-TBT(LF)(SN)(N)")
+    )
+    (path "/ea087a16-7cf2-46fd-b684-952f92bef138"
+      (reference "J25") (unit 1) (value "GPS2 & I2C2") (footprint "libraries:JST_BM06B-GHS-TBT(LF)(SN)(N)")
+    )
+    (path "/4a2691ed-65dd-4c57-a1e8-f06962262cd9"
+      (reference "J26") (unit 1) (value "TELEM2") (footprint "libraries:JST_BM06B-GHS-TBT(LF)(SN)(N)")
     )
     (path "/ffd91a8d-bee6-4976-a22f-d34993ce9a8f"
-      (reference "J?") (unit 1) (value "Aux Servo 6") (footprint "")
+      (reference "J27") (unit 1) (value "Aux Servo 6") (footprint "")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/455b7c6a-ae05-4c60-9e04-4936b817fd76"
+      (reference "L1") (unit 1) (value "Kyocera KNH16C104DA5TS EMI Filter") (footprint "Fuse:Fuse_0603_1608Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/5f2be2be-9179-4902-87c7-86ca69a03eff"
+      (reference "L2") (unit 1) (value "47uH") (footprint "Inductor_SMD:L_0805_2012Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/3ff7234a-8854-4a5d-939f-8d4927b4c9ec"
+      (reference "Q1") (unit 1) (value "Q_Dual_PMOS") (footprint "libraries:RESCAXE64P320X160X70-10N")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/47b5f42a-72b3-48cb-8717-e31bd517ebf5"
+      (reference "Q1") (unit 2) (value "Q_Dual_PMOS") (footprint "libraries:RESCAXE64P320X160X70-10N")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/214463fd-9947-43f4-96bd-0083eb57a9ac"
+      (reference "Q2") (unit 1) (value "Q_Dual_PMOS") (footprint "libraries:RESCAXE64P320X160X70-10N")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/9b0616f2-7c96-47ac-b776-569f9a9d7846"
+      (reference "Q2") (unit 2) (value "Q_Dual_PMOS") (footprint "libraries:RESCAXE64P320X160X70-10N")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/da05459a-ea0d-43f1-8689-e424f50e08e2"
+      (reference "Q3") (unit 1) (value "Q_Dual_PMOS") (footprint "libraries:RESCAXE64P320X160X70-10N")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/4891432d-ace6-42e6-acb0-844014a37d33"
+      (reference "Q3") (unit 2) (value "Q_Dual_PMOS") (footprint "libraries:RESCAXE64P320X160X70-10N")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/daeda23e-526a-4a98-ab3a-6417d6b6826d"
+      (reference "Q4") (unit 1) (value "MMBT3906-TPCT-ND") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/8ab4f1d2-9913-4b1b-b49d-173e22de231a"
+      (reference "R1") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/f7203215-e855-4ab0-89ca-bdabe6a5fbb7"
+      (reference "R2") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/f897d172-0c92-4792-9cea-10965e5062ff"
+      (reference "R3") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/9d4bed9f-1d56-4b0a-9155-dc2050094212"
+      (reference "R4") (unit 1) (value "16k5") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/85eedc86-d3e3-49a1-b09c-30d142ef3fb4"
+      (reference "R5") (unit 1) (value "25k5") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/f3d0229d-3f23-4faf-aceb-d52432d96691"
+      (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/06ffc393-b58f-48d6-a321-471968afc224"
+      (reference "R7") (unit 1) (value "453k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/078d87e5-8530-4cbf-bf01-0b363219b768"
+      (reference "R8") (unit 1) (value "56k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/a31a2383-c3c1-4391-93ae-720ef6034f60"
+      (reference "R9") (unit 1) (value "453k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/5cddf1db-4ccc-43d7-ad2c-6c950c283827"
+      (reference "R10") (unit 1) (value "105k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/2b953d94-aa96-43b6-84b4-89f430bea173"
+      (reference "R11") (unit 1) (value "56k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/383f5e9e-553d-4a39-ba00-0c1cfd67cc1f"
+      (reference "R12") (unit 1) (value "453k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/f90c8d2d-dda9-4f5f-8c54-28bfe6a11756"
+      (reference "R13") (unit 1) (value "105k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/6e591555-b4b0-4aa7-87b7-3eca1c8c3286"
+      (reference "R14") (unit 1) (value "56k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/9cfd306c-d37f-4039-9213-6d4e26a40bd5"
+      (reference "R15") (unit 1) (value "105k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/61cf2ca3-5e78-42ab-b871-da0da4effcab"
+      (reference "R16") (unit 1) (value "453k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/71df06cc-50ce-4e85-aa7d-d9f626dec07f"
+      (reference "R17") (unit 1) (value "16k5") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/5eff5752-0dc3-493b-99fb-38a5ef6042ef"
+      (reference "R18") (unit 1) (value "9k09") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/7588a46f-ef8f-444f-b6e7-a5bdb9da72a0"
+      (reference "R19") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/8bf367ba-e5ba-4c82-88d5-cb74f7e1a6c6"
+      (reference "R20") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/58587b33-92b7-4a4c-8124-6ad6e848e27b"
+      (reference "R21") (unit 1) (value "16k5") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/8617fce1-34f9-4f09-8a97-6f0e152bded2"
+      (reference "RN1") (unit 1) (value "R_Pack4") (footprint "libraries:EXB28V105JX")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/0c706c91-5b91-4753-a855-a6139f4aa6d3"
+      (reference "RN1") (unit 2) (value "R_Pack4") (footprint "libraries:EXB28V105JX")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/2d031adb-e240-4a3d-93eb-24b56efb58ac"
+      (reference "RN1") (unit 3) (value "R_Pack4") (footprint "libraries:EXB28V105JX")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/687c3a46-1305-4f61-9243-db2d845515f6"
+      (reference "RN1") (unit 4) (value "R_Pack4") (footprint "libraries:EXB28V105JX")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/e63dfd0d-e298-4edf-806b-fef7db49e90e"
+      (reference "U1") (unit 1) (value "BQ24315") (footprint "libraries:SON50P200X200X80-9N")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/e4c7adc1-cad9-4d05-acbc-a3ced1243073"
+      (reference "U2") (unit 1) (value "BQ24315") (footprint "libraries:SON50P200X200X80-9N")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/b152b823-388f-4042-8289-97fb68c0c909"
+      (reference "U3") (unit 1) (value "LTC4417 QFN") (footprint "libraries:QFN50P400X400X80-25N")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/df36c81f-0e6f-4e1c-8360-42ab52615adf"
+      (reference "U4") (unit 1) (value "MIC5332") (footprint "libraries:MIC5332-SSYMT-TR")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/44328f96-9b6b-4c65-b848-6dcf0aa31097"
+      (reference "U5") (unit 1) (value "LT3469ETS8PBF") (footprint "Linear_Technology-LT3469ETS8PBF-*")
+    )
+    (path "/4a08accc-5be5-4bdc-9881-32ffc90b7889/65c91fc8-58c1-48fd-932c-d5268a7edf8b"
+      (reference "U6") (unit 1) (value "BQ24313") (footprint "libraries:SON50P200X200X80-9N")
     )
   )
 )

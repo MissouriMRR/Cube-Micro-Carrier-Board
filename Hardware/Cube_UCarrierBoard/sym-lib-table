@@ -6,4 +6,8 @@
   (lib (name "BM06B-GHS-TBT_LF__SN__N_")(type "KiCad")(uri "${KIPRJMOD}/libraries/BM06B-GHS-TBT_LF__SN__N_.kicad_sym")(options "")(descr ""))
   (lib (name "BM08B-GHS-TBT_LF__SN__N_")(type "KiCad")(uri "${KIPRJMOD}/libraries/BM08B-GHS-TBT_LF__SN__N_.kicad_sym")(options "")(descr ""))
   (lib (name "2022-11-05_21-49-56")(type "KiCad")(uri "${KIPRJMOD}/libraries/2022-11-05_21-49-56.kicad_sym")(options "")(descr ""))
+  (lib (name "LTC4417IUF_TRPBF")(type "KiCad")(uri "${KIPRJMOD}/libraries/LTC4417IUF_TRPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ24313-BQ24315")(type "KiCad")(uri "${KIPRJMOD}/libraries/BQ24313-BQ24315.kicad_sym")(options "")(descr ""))
+  (lib (name "MIC5332")(type "KiCad")(uri "${KIPRJMOD}/libraries/MIC5332.kicad_sym")(options "")(descr ""))
+  (lib (name "LT3469ETS8")(type "KiCad")(uri "${KIPRJMOD}/libraries/LT3469ETS8.kicad_sym")(options "")(descr ""))
 )
