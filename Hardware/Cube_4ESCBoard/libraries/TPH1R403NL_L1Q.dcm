@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPH1R403NL,L1Q
+D MOSFET X35PBF Power MOSFET Trans VGS4.5VVDS30V
+K
+F https://www.arrow.com/en/products/tph1r403nll1q/toshiba
+$ENDCMP
+#
+#End Doc Library
