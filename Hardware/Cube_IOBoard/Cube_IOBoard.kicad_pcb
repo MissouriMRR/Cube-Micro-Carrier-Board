@@ -720,8 +720,8 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/libraries/Pixhawk2 Cube v5.step" hide
-      (offset (xyz 0 -3 12.5))
+    (model "${KIPRJMOD}/libraries/Pixhawk2 Cube v5.step"
+      (offset (xyz 0 -3 16.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
