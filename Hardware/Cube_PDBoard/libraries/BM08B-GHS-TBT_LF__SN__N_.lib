@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# BM08B-GHS-TBT(LF)(SN)(N)
+#
+DEF BM08B-GHS-TBT(LF)(SN)(N) P 0 40 Y Y 1 L N
+F0 "P" -200 522 50 H V L BNN
+F1 "BM08B-GHS-TBT(LF)(SN)(N)" -200 -602 50 H V L BNN
+F2 "JST_BM08B-GHS-TBT(LF)(SN)(N)" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN "PACKAGE"
+F5 "JST" 0 0 50 H I L BNN "MANUFACTURER"
+F6 "Good" 0 0 50 H I L BNN "AVAILABILITY"
+F7 "Conn Header Gh Top 8pos 1.25mm" 0 0 50 H I L BNN "DESCRIPTION"
+F8 "BM08B-GHS-TBT_LF__SN__N_" 0 0 50 H I L BNN "MP"
+F9 "Manufacturer recommendation" 0 0 50 H I L BNN "STANDARD"
+F10 "0.40 USD" 0 0 50 H I L BNN "PRICE"
+DRAW
+S -200 -500 200 500 0 0 10 f
+X 1 1 -400 400 200 R 40 40 0 0 P 
+X 2 2 -400 300 200 R 40 40 0 0 P 
+X 3 3 -400 200 200 R 40 40 0 0 P 
+X 4 4 -400 100 200 R 40 40 0 0 P 
+X 5 5 -400 0 200 R 40 40 0 0 P 
+X 6 6 -400 -100 200 R 40 40 0 0 P 
+X 7 7 -400 -200 200 R 40 40 0 0 P 
+X 8 8 -400 -300 200 R 40 40 0 0 P 
+X SHIELD P1 -400 -400 200 R 40 40 0 0 P 
+X SHIELD P2 -400 -400 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
